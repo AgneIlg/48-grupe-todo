@@ -1,0 +1,12 @@
+.main-header {
+    display: flex;
+    background-color: #f8f6fc;
+    padding: 1rem 2rem;
+    grid-column: span 2;
+}
+.main-header .logo{
+    display: block;
+    background-color: red;
+    height: 2rem;
+    
+}
