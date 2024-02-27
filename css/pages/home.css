@@ -14,14 +14,14 @@
 /* CUSTOM CSS BELOW THIS COMMENT LINE */
 
 body {
-    background-color: #eeeef9;
     min-height: 100vh;
+    background-color: #eeeef9;
 }
 
 main {
     display: grid;
     grid-template-rows: 3rem 1fr;
-    align-items: start;
+    align-content: start;
     gap: 2rem;
     min-height: 100%;
     padding: 2rem 2rem 0 2rem;
@@ -29,7 +29,7 @@ main {
 }
 
 aside {
-    padding: 1rem 2rem;
+    padding: 2rem;
 }
 
 .top {
